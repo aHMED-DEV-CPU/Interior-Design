@@ -1,0 +1,238 @@
+/* start global */
+:root{
+    --primary-color: #1F1F1F;
+    --secondary-color:  #545454;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+h1 , h2 ,  h3 , h4 , h5 , h6 {
+    color: var(--primary-color);
+}
+p{
+    color: var(--secondary-color);
+}
+/* End global */
+/* start nav */
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show  {
+    color: var(--primary-color);
+        font-size: 1.375rem;
+        text-align: center;
+}
+.nav-link  {
+    color: var(--secondary-color);
+    font-size: 1.375rem;
+            text-align: center;
+}
+.btn-custom-dark {
+background-color: var(--primary-color);
+color: white;
+font-size: 1.25rem;
+}
+/* End  nav */
+/* start home */
+#Home{
+    padding-top: 100px;
+}
+#Home  h1 {
+    font-size: 8.3125rem;
+}
+#Home p{
+    line-height: 42.12px;
+    max-width: 80%;
+    
+}
+#Home h3 {
+    color: var(--secondary-color);
+    font-size: 4.375rem;
+}
+.home-2nd .image-container {
+    position: relative;
+}
+
+/* End home */
+/*  start Services*/
+.Services h2 {
+    font-size: 3.625rem;
+    margin-left: 20%;
+    position: relative;
+}
+.Services h2::before{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 20%;
+    height: 3px;
+    left: -23%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--primary-color);
+}
+.Services .box h3 {
+font-size: 1.9rem;
+font-weight: 600;
+}
+.Services .box p {
+    font-size: 1.375rem;
+    margin-top: 10px;
+}
+/*  End Services*/
+/* start Brilliance */
+#Brilliance .second {
+    color: var(--primary-color);
+}
+/* end Brilliance */
+/* start steps */
+#steps .contain {
+    width: 72px;
+    height: 72px;
+    background-color: var(--primary-color);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+                            margin-right: 20px;
+}
+#steps ul li span {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+}
+#steps ul li p {
+    padding-left: 92px;
+}
+/* #steps  .contain::before {
+
+} */
+#steps ul li:not(:last-child) .contain::before {
+    position: absolute;
+        content: '';
+        width: 1px;
+        height: 100%;
+        top: 150%;
+        background-color: #9B9B9B;
+}
+#steps h2 {
+    font-size: 3.625rem;
+}
+/* end steps */
+/* start About Us*/
+#about h2 {
+    font-size: 3.625rem;
+    font-weight:600 ;
+}
+#about .inner-box {
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    color: white;
+    padding-inline: 1.875rem;
+    padding-block: 3.75rem;
+}
+#about .inner-box i  {
+    font-size: 2rem;
+}
+#about .inner-box p {
+    font-size:1.5rem ;
+    margin-top: 3rem ;
+        margin-bottom: 3rem ;
+}
+#about .card-container {
+
+    width: 150%;
+    position: absolute;
+        bottom: 0;
+            left: 15.625rem;
+            display: flex;
+}
+#about .inner-box small {
+    color: #929292;;
+}
+
+#about   .arrows .left ,#about  .arrows .right {
+    width: 14%;
+    height: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1F1F1;
+    color: #464646;
+}
+/* end  About Us*/
+/* start newsTeller */
+.newsTeller h2 {
+    font-size: 3.625rem;
+    font-weight:600 ;
+}
+.newsTeller p{
+
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+.newsTeller form {
+    left: 50%;
+    transform: translateX(-50%);
+}
+.newsTeller form input {
+    padding: 25px 170px 25px 50px;
+    box-shadow: 0px 10px 100px 0px #00000024;
+    border: 0;
+    border-radius: 4px;
+
+}
+.newsTeller form input:focus-visible {
+    outline-color: var(--secondary-color);
+}
+.newsTeller  form::before {
+    position: absolute;
+    content: '\f0e0';
+    font-size: 1.7rem;
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    left: 15px;
+ color:var(--secondary-color);
+    top: 50%;
+        transform: translateY(-50%);
+}
+.newsTeller form button {
+    position: absolute;
+padding-inline: 30px;
+padding-block: 10px;
+right: 5px;
+top: 50%;
+transform: translateY(-50%);
+        font-size: 1.5rem;
+        font-weight: 600;
+background-color: var(--primary-color);
+color: white;
+border-radius: 4px;
+border: 0;
+}
+/* End newsTeller */
+/* footer */
+/* start footer */
+footer {
+    background-color: var(--primary-color);
+    padding-block: 80px;
+}
+footer p:first-of-type{
+    color:  #D1D1D1;
+    margin-block: 30px;
+    padding-right: 30%;
+}
+footer h3 {
+    color: white;
+    font-size: 1.5rem;
+}
+footer ul li {
+    margin-block: 10px;
+}
+footer ul a {
+    text-decoration: none;
+    color: #D1D1D1;
+}
+footer .row .col-md-4:last-child ul{
+    padding-right: 42%;
+}
+/* End footer */
